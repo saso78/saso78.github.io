@@ -21,7 +21,7 @@ hr {
 
 header.startup {
   background-position: center;
-  background-image: url("background.jpg");
+  background-image: url("header.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -40,6 +40,8 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 .btn-xl {
