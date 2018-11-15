@@ -40,7 +40,6 @@ header.startup h1 {
   text-transform: uppercase;
   border-radius: 300px;
   font-family: 'Montserrat', sans-serif;
-  align-items: center;
 }
 
 .btn-xl {
@@ -57,3 +56,4 @@ header.startup h1 {
   border-width: 5px;
   cursor: pointer;
 }
+  
