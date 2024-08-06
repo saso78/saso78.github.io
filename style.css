@@ -7,8 +7,11 @@ body {
 }
 
 .header {
-    background: linear-gradient(to bottom right, #007BFF, #003366);
-    height: 100vh;
+    background-image: url('images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg');
+    background-size: cover; /* Adjusts the image to cover the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Sets the height of the header */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +19,7 @@ body {
     text-align: center;
     position: relative;
 }
+
 
 .header nav ul {
     list-style: none;
