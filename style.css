@@ -7,15 +7,15 @@ body {
 }
 
 .header {
-    background-image: url('images/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg');
+    background-image: url('images/domenico-loia-hGV2TfOh0ns-unsplash.jpg');
     background-size: cover; /* Adjusts the image to cover the entire header */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    height: 100vh; /* Sets the height of the header */
+    height: 50vh; /* Sets the height of the header */
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: midnightblue;
     text-align: center;
     position: relative;
 }
@@ -75,23 +75,47 @@ body {
 }
 
 .skills-list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: center; /* Center the logos horizontally */
+    align-items: center; /* Center the logos vertically */
+    gap: 20px; /* Space between the logos */
+    flex-wrap: wrap; /* Wrap to the next line if needed */
+    padding: 20px; /* Optional padding around the container */
 }
 
 .skill {
-    text-align: center;
-    margin: 10px;
+    width: 100px; /* Set a consistent width */
+    height: 100px; /* Set a consistent height */
+    overflow: hidden; /* Hide any overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the logo fits within the container without distortion */
 }
 
 .skill i {
     font-size: 40px;
     color: #007BFF;
 }
-
-.coaching {
+.project-item{
     background: #e3f2fd;
+}
+.coaching {
+    background-image: url('images/pexels-khwanchai-phanthong-4175028.jpg');
+    background-size: cover; /* Adjusts the image to cover the entire header */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 20vh; /* Sets the height of the header */
+    display: flex;  
+    padding-top: 10%;  
+    text-align:match-parent;
+    position: sticky;
+   
 }
 
 .contact {
