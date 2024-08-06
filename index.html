@@ -1,35 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Startup</title>
-		<!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
-    <!-- My own stylesheet -->
-    <link href="style.css" rel="stylesheet">
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saso Trpovski Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body >
-    <header class="startup text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-12 my-auto">
-            <h1 class="text-uppercase faded">
-              <strong>the biggest startup event of the year</strong>
-            </h1>
-            <hr>
-          </div>
-          <div class="col-lg-12 my-auto">
-
-            <a href="http://eepurl.com/dNGJm-/"><button class="btn btn-primary btn-xl">Find Out More</button></a>
-          </div>
+<body>
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1>Saso Trpovski</h1>
+            <p>Programmer & DevOps Specialist</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </div>
     </header>
-  </body>
 
+    <section id="about" class="about">
+        <div class="container">
+            <img src="path_to_your_photo.jpg" alt="Saso Trpovski" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>Accomplished professional with expertise in psychology, system administration, software development, and DevOps...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="work">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <h3>Material Accounting</h3>
+                <p>Details about the project, technologies used...</p>
+                <div class="technologies">
+                    <img src="path_to_logo_docker.png" alt="Docker">
+                    <img src="path_to_logo_net.png" alt=".NET">
+                    <img src="path_to_logo_sql_server.png" alt="SQL Server">
+                </div>
+            </div>
+            <!-- Add more work items as needed -->
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills & Technologies</h2>
+            <div class="skills-list">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <span>JavaScript</span>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:sasotrpovski@gmail.com">sasotrpovski@gmail.com</a></p>
+            <!-- Optional: Add a contact form -->
+        </div>
+    </section>
+</body>
 </html>

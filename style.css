@@ -1,64 +1,91 @@
-
-body,
-html {
-  width: 100%;
-  height: 100%; 
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
 }
 
-hr {
-  max-width: 65px;
-  border-width: 3px;
-  border-color: #F05F44; 
+.header {
+    background: linear-gradient(to bottom right, #007BFF, #003366);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
 
-.faded {
-  color: rgba(255, 255, 255, 0.8); 
+.header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
-header.startup {
-  background-position: center;
-  background-image: url("header.jpg");
-  background-size: cover;
-  height: 100%;
+.header-content {
+    z-index: 1;
 }
 
-header.startup hr {
-  margin-top: 200px;
-  margin-bottom: 30px; 
+header nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-header.startup h1 {
-  font-size: 2rem; 
-}
-.kopce {
-  display: flex;
-  justify-content: center;
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-.btn {
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
-  display: inline-flex;
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.btn-xl {
-  padding: 1rem 2rem; 
+.about {
+    padding: 50px 0;
 }
 
-.btn-primary {
-  background-color: #F05F44;
-  border-color: #F05F44; }
-
-.btn-primary:hover {
-  background-color: #ee4b08;
-  border-color: #ee4b08;
-  border-width: 5px;
-  cursor: pointer;
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-  
+
+.about .profile-pic {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.work, .skills, .contact {
+    padding: 50px 0;
+    background-color: #f0f8ff;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill {
+    text-align: center;
+    margin: 10px;
+}
+
+.skill i {
+    font-size: 40px;
+    color: #007BFF;
+}
+
+.contact p {
+    text-align: center;
+}
